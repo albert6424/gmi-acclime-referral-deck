@@ -179,6 +179,37 @@ li { margin-bottom: 16px; }
 .slab { font-size: 28px; line-height: 1.2; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #f8fafc; }
 .sline { flex: 1; height: 2px; margin-top: 35px; background: #93c5fd; }
 
+/* matter workspace (workspace) */
+.ws-wrap { display: flex; gap: 32px; align-items: stretch; }
+.ws { width: 1240px; box-sizing: border-box; background: #eef2f7; border-radius: 28px; padding: 28px; display: flex; flex-direction: column; gap: 20px; }
+.ws-kpis { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; gap: 16px; }
+.kpi { border-radius: 18px; padding: 12px 20px; display: flex; flex-direction: column; gap: 4px; background: #ffffff; }
+.kpi.b { background: #dbeafe; }
+.kpi.g { background: #dcfce7; }
+.kpi.a { background: #fef3c7; }
+.kpi.p { background: #fce7f3; }
+.kpi-l { font-size: 24px; line-height: 1.2; color: #475569; }
+.kpi-n { font-size: 36px; line-height: 1.1; font-weight: 700; color: #0f172a; }
+.ws-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+.wbox { background: #ffffff; border-radius: 18px; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.w-h { font-size: 24px; line-height: 1.2; font-weight: 700; color: #0f172a; }
+.w-t { font-size: 24px; line-height: 1.3; color: #334155; }
+.w-s { font-size: 24px; line-height: 1.3; color: #64748b; }
+.donut-row { display: flex; align-items: center; gap: 16px; }
+.lg { display: flex; flex-direction: column; gap: 6px; }
+.lgi { display: flex; align-items: center; gap: 8px; }
+.ldot { width: 14px; height: 14px; flex: none; }
+.hrow { display: flex; align-items: center; gap: 12px; }
+.hl { width: 150px; flex: none; font-size: 24px; line-height: 1.3; color: #334155; }
+.htrack { width: 120px; flex: none; height: 16px; border-radius: 8px; background: #e2e8f0; display: flex; }
+.hfill { height: 16px; border-radius: 8px; background: #3b82f6; }
+.hv { font-size: 24px; line-height: 1.3; font-weight: 600; color: #0f172a; }
+.prog { display: flex; gap: 6px; height: 14px; }
+.pseg { height: 14px; border-radius: 7px; }
+.task { display: flex; flex-direction: column; gap: 2px; padding-top: 10px; border-top: 1px solid #e2e8f0; }
+.task-n { font-size: 24px; line-height: 1.3; font-weight: 600; color: #0f172a; }
+.att { background: #13223b; border: 1px solid #3b4f78; border-radius: 16px; padding: 16px 20px; }
+
 /* motion */
 .rise { animation: rise 0.7s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * 110ms); }
 @keyframes rise { from { opacity: 0; transform: translateY(28px); } }

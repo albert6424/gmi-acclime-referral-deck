@@ -1,6 +1,6 @@
 # General Magick · AI Workflow Automation deck
 
-A 10-slide General Magick Industries deck about AI workflow automation as a business solution.
+An 11-slide General Magick Industries deck about AI workflow automation as a business solution.
 
 | | Link |
 |---|---|

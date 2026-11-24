@@ -4,7 +4,7 @@ This repo holds a slide deck for **General Magick Industries (GMI)**, made with 
 
 | | Deck | Link |
 |---|---|---|
-| **Current** | "General Magick · AI Workflow Automation", 10 slides. Its files are in `project/`. | https://claude.ai/artifact/4AG7B6ug9bKzNnXzDFsgv9 |
+| **Current** | "General Magick · AI Workflow Automation", 11 slides. Its files are in `project/`. | https://claude.ai/artifact/4AG7B6ug9bKzNnXzDFsgv9 |
 | Backup (v1) | "GMI × Acclime Referral Partnership", 12 slides. Git tag `v1-backup`. | https://claude.ai/artifact/Qa719oAxraohZoRE9rH7vy |
 
 Work only on the **current** deck. The backup deck is kept so the team can always go back to the start. Don't change it unless the user asks.
@@ -31,9 +31,10 @@ Then ask what they want to change. Keep it short.
 | 5 | `why-gmi` | Claude Partner Network, NVIDIA Inception, 2 hubs, 8 products, office addresses |
 | 6 | `products` | Six GMI products: Magick Robotics, GabiGo, Magick Learn, Matji & Co, Magick Tailor, OrgAI |
 | 7 | `ai-teams` | Claude setup for every team member, plus AI automation training |
-| 8 | `training-demo` | Mock one-screen client pipeline dashboard (all made-up data) |
-| 9 | `build-run` | ERP & data (Connect, Clean, Show, Ask) plus websites, apps, customer portals |
-| 10 | `close` | "Let's build it together", a general line, and the contact line |
+| 8 | `training-demo` | Mock one-screen client pipeline dashboard, "1 of 2" (all made-up data) |
+| 9 | `workspace` | Mock matter workspace for Orchid Realty, "2 of 2": KPI tiles, document status donut, hours per task, task tracker, "Needs attention · AI" card. It continues slide 8 (same client, same fee proposal). |
+| 10 | `build-run` | ERP & data (Connect, Clean, Show, Ask) plus websites, apps, customer portals |
+| 11 | `close` | "Let's build it together", a general line, and the contact line |
 
 ## History: what was done
 
@@ -53,13 +54,14 @@ Then ask what they want to change. Keep it short.
   - The old services slide was replaced by **What we deliver**.
   - The partnership slide was removed.
   - The closing slide was kept at the end, with its Acclime line made general.
-  - New order: cover, need, deliver, automations, why GMI, products, AI setup and training, dashboard, data and build, close.
+  - New order: cover, need, deliver, automations, why GMI, products, AI setup and training, pipeline dashboard, matter workspace, data and build, close.
 - **Browser edits.** The owner edited some text directly in the browser, for example the cover title and the law-firm version of the dashboard example.
 
 ## Rules
 
 - **No IT support.** Never list "everyday IT" or IT support as a GMI service.
 - **General audience.** This deck is general, so don't name Acclime or any other partner unless the user asks.
+- **Linked demo slides.** Slides 8 and 9 tell one story about the same mock law firm and client (Orchid Realty, Nina Park). Keep names, dates and the fee proposal consistent if you change either one.
 - **Every company size.** Write for companies of every size and type. Don't say "new and growing companies" or anything that limits the audience.
 - **Keep the GMI look.** Use the classes in `project/deck.css`, with no new colors or fonts. All cards share one style: dark rounded card (`.card` or `.rcol`), blue uppercase label, grey text. Don’t add blue rings or borders to cards.
 - **Nothing invented.** Never invent statistics, clients or quotes. Mock data must stay labeled "mock data".
