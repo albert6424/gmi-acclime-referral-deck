@@ -168,6 +168,14 @@ li { margin-bottom: 16px; }
 .tag.grey { background: #334155; }
 .btn { align-self: flex-start; font-size: 24px; line-height: 1.2; font-weight: 600; color: #ffffff; background: #2563eb; padding: 12px 24px; border-radius: 28px; }
 
+/* ruled columns + verb strip (need, deliver) */
+.rcol { border-top: 2px solid #93c5fd; padding-top: 24px; display: flex; flex-direction: column; gap: 12px; }
+.colh { font-size: 28px; line-height: 1.2; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #f8fafc; }
+.vstrip { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; border: 2px solid #93c5fd; }
+.vcell { padding: 20px 0; text-align: center; border-left: 2px solid #93c5fd; font-family: 'Anton', Impact, sans-serif; font-size: 36px; line-height: 1.2; text-transform: uppercase; color: #dbeafe; }
+.vcell.first { border-left: none; }
+.vcell.on { background: #1d4ed8; color: #f8fafc; }
+
 /* motion */
 .rise { animation: rise 0.7s cubic-bezier(.2,.7,.2,1) both; animation-delay: calc(var(--i, 0) * 110ms); }
 @keyframes rise { from { opacity: 0; transform: translateY(28px); } }
