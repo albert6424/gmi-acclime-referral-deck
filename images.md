@@ -17,3 +17,5 @@ Slides point to images as `/_blob/<id>`. An id only works inside its own deck.
 Not in any slide right now, but available: `brand/companies-bg.jpeg`, `brand/inside-1.jpg` to `inside-4.jpg` (team photos), `brand/emblem.webp`, `brand/favicon.svg` (logo).
 
 The Magick Tailor and OrgAI pictures are inline SVG drawings inside `project/slides/products.html`, not image files. The GMI logo on every slide is an inline SVG too.
+
+Partner logos on the why-gmi slide are inline SVGs traced from `brand/partners/claude-spark.png` and `brand/partners/nvidia-eye.png`. The SVG files are next to them (`claude-spark.svg`, `nvidia-eye.svg`).
