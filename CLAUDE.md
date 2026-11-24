@@ -61,7 +61,7 @@ Then ask what they want to change. Keep it short.
 - **No IT support.** Never list "everyday IT" or IT support as a GMI service.
 - **General audience.** This deck is general, so don't name Acclime or any other partner unless the user asks.
 - **Every company size.** Write for companies of every size and type. Don't say "new and growing companies" or anything that limits the audience.
-- **Keep the GMI look.** Use the classes in `project/deck.css`, with no new colors or fonts. Don't add blue rings or borders to cards.
+- **Keep the GMI look.** Use the classes in `project/deck.css`, with no new colors or fonts. All cards share one style: dark rounded card (`.card` or `.rcol`), blue uppercase label, grey text. Don’t add blue rings or borders to cards.
 - **Nothing invented.** Never invent statistics, clients or quotes. Mock data must stay labeled "mock data".
 - **Missing figures.** If a slide needs a number you don't have, put a [bracket] placeholder in its place and tell the user. Don't make one up.
 - **Wording.** Use the typographic apostrophe `’` in slide text.

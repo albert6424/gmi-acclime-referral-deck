@@ -169,8 +169,8 @@ li { margin-bottom: 16px; }
 .btn { align-self: flex-start; font-size: 24px; line-height: 1.2; font-weight: 600; color: #ffffff; background: #2563eb; padding: 12px 24px; border-radius: 28px; }
 
 /* ruled columns + verb strip (need, deliver) */
-.rcol { border-top: 2px solid #93c5fd; padding-top: 24px; display: flex; flex-direction: column; gap: 12px; }
-.colh { font-size: 28px; line-height: 1.2; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: #f8fafc; }
+.rcol { background: #0f1b30; border: 1px solid #253552; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 12px; }
+.colh { font-size: 24px; line-height: 1.2; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #93c5fd; }
 /* step tracker (need) */
 .steps { display: flex; align-items: flex-start; }
 .step { width: 160px; flex: none; display: flex; flex-direction: column; align-items: center; gap: 16px; }
