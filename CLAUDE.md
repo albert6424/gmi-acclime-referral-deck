@@ -4,7 +4,7 @@ This repo holds a slide deck for **General Magick Industries (GMI)**, made with 
 
 | | Deck | Link |
 |---|---|---|
-| **Current** | "General Magick · AI Workflow Automation", 9 slides. Its files are in `project/`. | https://claude.ai/artifact/4AG7B6ug9bKzNnXzDFsgv9 |
+| **Current** | "General Magick · AI Workflow Automation", 10 slides. Its files are in `project/`. | https://claude.ai/artifact/4AG7B6ug9bKzNnXzDFsgv9 |
 | Backup (v1) | "GMI × Acclime Referral Partnership", 12 slides. Git tag `v1-backup`. | https://claude.ai/artifact/Qa719oAxraohZoRE9rH7vy |
 
 Work only on the **current** deck. The backup deck is kept so the team can always go back to the start. Don't change it unless the user asks.
@@ -33,6 +33,7 @@ Then ask what they want to change. Keep it short.
 | 7 | `ai-teams` | Claude setup for every team member, plus AI automation training |
 | 8 | `training-demo` | Mock one-screen client pipeline dashboard (all made-up data) |
 | 9 | `build-run` | ERP & data (Connect, Clean, Show, Ask) plus websites, apps, customer portals |
+| 10 | `close` | "Let's build it together", a general line, and the contact line |
 
 ## History: what was done
 
@@ -50,8 +51,9 @@ Then ask what they want to change. Keep it short.
   - The cover lost its small "General Magick Industries" header and got general text.
   - The old problem and how-it-works slides were merged into the new **Need** slide.
   - The old services slide was replaced by **What we deliver**.
-  - The partnership and closing slides were removed.
-  - New order: cover, need, deliver, automations, why GMI, products, AI setup and training, dashboard, data and build.
+  - The partnership slide was removed.
+  - The closing slide was kept at the end, with its Acclime line made general.
+  - New order: cover, need, deliver, automations, why GMI, products, AI setup and training, dashboard, data and build, close.
 - **Browser edits.** The owner edited some text directly in the browser, for example the cover title and the law-firm version of the dashboard example.
 
 ## Rules

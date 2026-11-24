@@ -4,7 +4,7 @@ Slides point to images as `/_blob/<id>`. An id only works inside its own deck.
 
 | Local file | Used on | Current deck id | Backup (v1) deck id |
 |---|---|---|---|
-| `brand/hero-bg.jpg` | cover | `0d6383ea5db5f953fcd4dcb84ff8729d` | `ebd28549626d0ffacca6e9513d42b6c1` |
+| `brand/hero-bg.jpg` | cover, close | `0d6383ea5db5f953fcd4dcb84ff8729d` | `ebd28549626d0ffacca6e9513d42b6c1` |
 | `brand/map-bg.jpg` | why-gmi | `dc8422f41df75dabc1e98c3121655bb5` | `09f8eec18255a2896facc5fe95dab2bb` |
 | `brand/products/robotics-og.png` | products | `c5d9de5c63e7939793eb2f3cd65c212b` | `7be043a5a87632a3ef842668792e5f30` |
 | `brand/products/gabigo-og.png` | products | `ad4bb58229d474620c8cf577ec05b2ec` | `65075bc95d5e1160472813edfb695c7e` |
