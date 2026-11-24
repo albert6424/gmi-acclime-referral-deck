@@ -25,7 +25,7 @@ Then ask what they want to change. Keep it short.
 | # | Slide id | What it shows |
 |---|---|---|
 | 1 | `cover` | "General Magick Industries" on the Earth-at-night photo, with a general one-line promise |
-| 2 | `need` | The need: what we see, what it costs, what we do, plus the Read · Sort · Draft · Check · Report strip |
+| 2 | `need` | The need: what we see, what it costs ("far too many hours", highlighted), what we do, plus a 5-step tracker: Read → Sort → Draft → Check → Report |
 | 3 | `deliver` | What we deliver: six services in ruled columns |
 | 4 | `automations` | Five AI automations: document intake, customer messages, HR & payroll, reporting, compliance reminders |
 | 5 | `why-gmi` | Claude Partner Network, NVIDIA Inception, 2 hubs, 8 products, office addresses |
@@ -62,9 +62,7 @@ Then ask what they want to change. Keep it short.
 - **General audience.** This deck is general, so don't name Acclime or any other partner unless the user asks.
 - **Keep the GMI look.** Use the classes in `project/deck.css`, with no new colors or fonts. Don't add blue rings or borders to cards.
 - **Nothing invented.** Never invent statistics, clients or quotes. Mock data must stay labeled "mock data".
-- **Open gaps stay in [brackets]** until the owner gives real values:
-  - hours lost per week `[__]` on the Need slide
-  - its source `[to confirm]`
+- **Missing figures.** If a slide needs a number you don't have, put a [bracket] placeholder in its place and tell the user. Don't make one up.
 - **Wording.** Use the typographic apostrophe `’` in slide text.
 
 ## How to edit the deck

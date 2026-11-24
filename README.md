@@ -12,7 +12,7 @@ A 10-slide General Magick Industries deck about AI workflow automation as a busi
 1. Clone this repo.
 2. Open a terminal in the folder and run `claude`. You must be logged in with a claude.ai account.
 3. Type `hello`. Claude explains the deck and what was done.
-4. Ask for changes in plain words, for example: "On the Need slide, set the hours lost to 12."
+4. Ask for changes in plain words, for example: "On the cover, change the one-line promise."
 
 To change the same link, the deck owner must first share the deck with you with **edit** access. Without it, Claude can make your own copy instead.
 
